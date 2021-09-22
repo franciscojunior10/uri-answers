@@ -1,0 +1,8 @@
+NUMBER_EMPLOYEE = int(input(''))
+WORKED_HOURS = int(input(''))
+VALUE_WORKED_HOURS = float(input(''))
+
+VALUE_SALARY = WORKED_HOURS * VALUE_WORKED_HOURS
+
+print('NUMBER =',NUMBER_EMPLOYEE)
+print('SALARY = U$ %0.2f'%VALUE_SALARY)
